@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <script>
+        let visitor=prompt("Who's there ?",'');
+        
+        if(visitor === 'Admin')
+        {
+            let pass=prompt("Enter the password",'');
+            if(pass ==='TheMaster')
+            {
+                alert('Welcome');
+            }
+            else if (pass === '' || pass === null) {
+                
+                alert("Wrong password");
+            }
+            else {
+
+                alert("Canceled");
+            }
+        }
+        else if (visitor === '' || visitor === null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+       
+    </script>
+    
+</body>
+</html>

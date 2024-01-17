@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    
+    <script>
+        let age=+prompt("Enter your age",0);
+         function checkAge(age)
+         {
+            if(age>18)
+            {
+                return true;
+            }
+            else{
+                return confirm("Do you allow to This");
+            }
+         }
+
+         console.log(checkAge(age));
+
+
+
+
+        //  let age2=+prompt("Enter your age",0);
+        //  function checkAge(age)
+        //  {
+        //     if(age>18)
+        //     {
+        //         return true;
+        //     }
+        //    return confirm("Do you allow This");
+        // }
+
+        // console.log(checkAge(age));
+
+// ----------------------------------------------------------------------------------
+        
+
+            // Using ? 
+            // function checkAge(age) {
+            //   return (age > 18) ? true : confirm('Did parents allow you?');
+            // }
+
+
+            // ----------------------------------------------------------------------------------
+        // Using ||
+        // function checkAge(age) {
+        // return (age > 18) || confirm('Did parents allow you?');
+        // }
+
+
+
+
+    </script>
+</body>
+</html>

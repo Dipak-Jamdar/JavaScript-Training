@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // function printNumber(a,b)
+        // {
+        //     setTimeout( function go()
+        //     {
+        //         alert(a);
+        //         if(a<b)
+        //         {
+        //             setTimeout(go , 1000);
+        //             a++;
+        //         }
+        //     },1000)
+        // }
+
+
+
+
+
+        function printNumber2( start , end)
+        {
+            
+               setTimeout(function go(){
+
+                alert(start);
+                if(start<end)
+                {
+                    setTimeout(go,1000)
+                    {
+                        start++
+                    }
+                }
+            },1000)
+               }
+               
+            
+        
+
+
+        printNumber2(1,10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+        printNumber(1,10);
+    </script>
+</body>
+</html>

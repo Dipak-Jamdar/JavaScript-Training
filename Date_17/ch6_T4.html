@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function printNumber(a,b)
+        {
+            function go()
+            {
+                alert(a);
+                
+                if(a==b)
+                {
+                    clearInterval(timeId);
+                }
+                a++;
+            }
+            go();
+            let timeId=setInterval(go,1000);
+        }
+
+        printNumber(1,10);
+
+        
+    </script>
+    
+</body>
+</html>
